@@ -8,7 +8,7 @@ app = Flask(__name__)
 app.config['UPLOAD_FOLDER'] = 'uploads'
 
 # OpenAI API Key 설정
-OPENAI_API_KEY = 'your openai api key'
+OPENAI_API_KEY = 'your api key'
 openai.api_key = OPENAI_API_KEY
 
 # RAG API 엔드포인트
