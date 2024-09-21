@@ -5,13 +5,85 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Audio Recorder</title>
     <link rel="icon" type="image/x-icon" href="{{ url_for('static', filename='favicon.ico') }}">
+    <style>
+        #start-recording, #stop-recording {
+            background: none;
+            border: none;
+            cursor: pointer;
+        }
+        #start-recording img, #stop-recording img {
+            width: 200px;
+            height: 200px;
+        }
+    </style>
 </head>
 <body>
 <h1>Record Audio and Send to Flask</h1>
-<button id="start-recording">Start Recording</button>
-<button id="stop-recording" disabled>Stop Recording</button>
+<button id="start-recording">
+    <img src="{{ url_for('static', filename='image/mic.png') }}" alt="Start Recording">
+</button>
+<button id="stop-recording" disabled>
+    <img src="{{ url_for('static', filename='image/mic.png') }}" alt="Stop Recording">
+</button>
 <audio id="audio-playback" controls></audio>
 <div id="response"></div>
 
 <script src="{{ url_for('static', filename='recorder.js') }}"></script>
+<script>
+    let mediaRecorder;
+    let audioChunks = [];
+
+    document.getElementById('start-recording').addEventListener('click', async () => {
+        try {
+            const stream = await navigator.mediaDevices.getUserMedia({ audio: true });
+            mediaRecorder = new MediaRecorder(stream);
+
+            mediaRecorder.ondataavailable = function(event) {
+                audioChunks.push(event.data);
+            };
+
+            mediaRecorder.onstop = function() {
+                const audioBlob = new Blob(audioChunks, { type: 'audio/wav' });
+                const audioURL = URL.createObjectURL(audioBlob);
+                document.getElementById('audio-playback').src = audioURL;
+
+                // 오디오 파일을 서버로 전송
+                const formData = new FormData();
+                formData.append('audio_data', audioBlob, 'audio.wav');
+
+                fetch('/upload_audio', {
+                    method: 'POST',
+                    body: formData,
+                })
+                    .then(response => response.json())
+                    .then(data => {
+                        document.getElementById('response').textContent = data.response || data.error;
+                    })
+                    .catch(err => {
+                        console.error('Error uploading audio:', err);
+                        alert('Error uploading audio. Please try again.');
+                    });
+            };
+
+            mediaRecorder.start();
+            document.getElementById('start-recording').disabled = true;
+            document.getElementById('stop-recording').disabled = false;
+        } catch (err) {
+            console.error('Error accessing media devices.', err);
+            alert('Error accessing your microphone. Please check your permissions.');
+        }
+    });
+
+    document.getElementById('stop-recording').addEventListener('click', () => {
+        if (mediaRecorder) {
+            mediaRecorder.stop();
+            document.getElementById('start-recording').disabled = false;
+            document.getElementById('stop-recording').disabled = true;
+            audioChunks = []; // 데이터 초기화
+        } else {
+            console.error('MediaRecorder not initialized.');
+        }
+    });
+</script>
 </body>
+</html>
