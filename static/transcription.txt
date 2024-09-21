@@ -1,0 +1,119 @@
+SPEAKER_00:  Did you have forks or knives in the old days?
+SPEAKER_01: Forks and knives?
+SPEAKER_01: Oh, sure.
+SPEAKER_01: And spoons.
+SPEAKER_00: Hello.
+SPEAKER_00: Hi.
+SPEAKER_01: Hi, Micah.
+SPEAKER_00: Hi.
+SPEAKER_00: I'm Alice.
+SPEAKER_00: Nice to meet you, Alice.
+SPEAKER_00: Alice.
+SPEAKER_00: Alice, I'm sorry.
+SPEAKER_01: What is your name?
+SPEAKER_00: Clara.
+SPEAKER_01:  Clara, I'm very happy to meet you.
+SPEAKER_00: What are we here to talk about?
+SPEAKER_01: Well, I think it might be how old I am.
+SPEAKER_00: How old are you?
+SPEAKER_01: I'm in my hundred and first year.
+SPEAKER_01: A hundred and one.
+SPEAKER_00: A hundred and one?
+SPEAKER_01: Right.
+SPEAKER_01: Did you ever know anybody else that old?
+SPEAKER_01: No.
+SPEAKER_01: I don't even know anybody else that old.
+SPEAKER_00: Where are you from?
+SPEAKER_01:  Well, originally I was born in Philadelphia, way, way over on the east coast.
+SPEAKER_00: I was born in New York City.
+SPEAKER_01: Oh, you were.
+SPEAKER_01: So you were born in the east too.
+SPEAKER_00: Yeah.
+SPEAKER_00: How was it like back then?
+SPEAKER_01: We didn't have radio.
+SPEAKER_01: We didn't have television.
+SPEAKER_01: No telephones when I was a little girl.
+SPEAKER_01: There were not any trucks.
+SPEAKER_01: They had wagons and horses pulled them.
+SPEAKER_00:  Wow, that must have been a long time ago.
+SPEAKER_01: It was a long, long time ago.
+SPEAKER_00: Back then, did you see any wars?
+SPEAKER_01: I did, and I was in the war.
+SPEAKER_01: I was in the Second World War.
+SPEAKER_01: We worked on decoding and encoding machines, very secret work.
+SPEAKER_01: The officers had guns, and they said if you told any of the secrets, they would shoot you dead.
+SPEAKER_01:  But nobody got shot.
+SPEAKER_01: Yeah.
+SPEAKER_00: What would you do for fun?
+SPEAKER_01:  Oh, when I was a little girl?
+SPEAKER_01: I had dolls and blocks, but I really liked boys things.
+SPEAKER_01: I liked marbles and tops, and I thought boys were much luckier than girls.
+SPEAKER_01: We had to wear skirts and stockings, even in the coldest weather.
+SPEAKER_01: They didn't have slacks or pants for girls.
+SPEAKER_00: Girls couldn't wear pants?
+SPEAKER_01: That's true.
+SPEAKER_00:  That is not fair.
+SPEAKER_01: No.
+SPEAKER_00: What is your job?
+SPEAKER_01: Oh, my job was teaching in a college, but I retired a long time ago.
+SPEAKER_01: I taught biology, and if you look at my shirt, you'll see some of the things I taught about.
+SPEAKER_01: Could you possibly know what this one is?
+SPEAKER_01: Oh, that's a spider!
+SPEAKER_01: Well, wonderful!
+SPEAKER_00: What's your favorite insect?
+SPEAKER_01:  Ants.
+SPEAKER_01: I did research on ants.
+SPEAKER_01: But you know what an ant looks like, don't you?
+SPEAKER_00: Yeah, it's like this tiny.
+SPEAKER_00: They can carry a big thing like a banana, like three of them can, even though they're this tiny.
+SPEAKER_01: You're very good, and you're only six years old?
+SPEAKER_00:  What do you like to do for fun?
+SPEAKER_01: Well right now I'm watching the Olympics.
+SPEAKER_01: And I write books.
+SPEAKER_01: I do puzzles.
+SPEAKER_01: I enjoy email.
+SPEAKER_01: I write to a lot of friends.
+SPEAKER_01: I even play Scrabble.
+SPEAKER_01: Do you know how to play Scrabble?
+SPEAKER_01: No?
+SPEAKER_01: You should ask somebody to play Scrabble.
+SPEAKER_01: It's lots of fun.
+SPEAKER_01: Also I try to get exercise every day.
+SPEAKER_01: Every day?
+SPEAKER_01: Yep.
+SPEAKER_01:  Good.
+SPEAKER_01: Some old people aren't very well anymore.
+SPEAKER_01: Yeah.
+SPEAKER_01: Some of them can't remember things.
+SPEAKER_01: Some of them are really lame and they have to have somebody help them.
+SPEAKER_01: But I can do everything myself.
+SPEAKER_00: That's good.
+SPEAKER_00: And that's good.
+SPEAKER_00: And that means you're really old, but you're really good at it.
+SPEAKER_01: Yeah, and I enjoy life.
+SPEAKER_00: What is the hardest part about getting old?
+SPEAKER_01:  You miss people.
+SPEAKER_01: And especially when you live over 100 years, most of the people I ever knew in my family are already dead.
+SPEAKER_01: But that happens, doesn't it?
+SPEAKER_00: Yeah.
+SPEAKER_00: A person in my family died.
+SPEAKER_01:  And did you know the person?
+SPEAKER_00: Yeah, it's my great grandfather.
+SPEAKER_00: We still have a picture of him up on our mantel to remind us of when I was playing with him.
+SPEAKER_01: That's wonderful.
+SPEAKER_00: Are you afraid of dying?
+SPEAKER_01: No, I'm not afraid of dying.
+SPEAKER_01: I feel very healthy and happy.
+SPEAKER_01: My doctor said, maybe you'll just die in your sleep.
+SPEAKER_01: So I'm not afraid, because I have a good life.
+SPEAKER_00:  What's the secret to living a long life?
+SPEAKER_01: Being happy, working hard, getting exercise, doing things for yourself, not expecting other people to do everything for you.
+SPEAKER_01: And all of those things make you live a long time.
+SPEAKER_01: Nice to meet you.
+SPEAKER_01: It's wonderful to meet you.
+SPEAKER_01: Have a great life.
+SPEAKER_01: I'm very proud of you.
+SPEAKER_00: Thank you.
+SPEAKER_01: You're welcome.
+SPEAKER_00:  Nice to meet you.
+SPEAKER_01: I used to go play with my granddaughter together in a playground in Yongin. The playground was really big.
